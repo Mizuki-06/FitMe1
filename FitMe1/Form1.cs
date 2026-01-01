@@ -12,7 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace FitMe1
 {
     public partial class Form1 : Form
-    {
+    { 
         public Form1()
         {
             InitializeComponent();
@@ -81,7 +81,7 @@ namespace FitMe1
 
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            if (string.IsNullOrEmpty(textBox5.Text) || //check for empty fields in registration
+            if (string.IsNullOrEmpty(textBox6.Text) || //check for empty fields in registration
             string.IsNullOrEmpty(textBox4.Text) ||
             string.IsNullOrEmpty(textBox3.Text))
             {
@@ -104,16 +104,20 @@ namespace FitMe1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox3.Text != textBox2.Text)
+            if (textBox1.Text != textBox6.Text ||
+                textBox2.Text != textBox3.Text)
             {
-                MessageBox.Show("Password is incorrect!");
+                MessageBox.Show("Please enter the correct information!");
                 return;
             }
-            if (textBox1.Text != textBox4.Text)
+            else
             {
-                MessageBox.Show("Email is incorrect!");
-                return;
+                Form4 form4 = new Form4();
+                form4.Show();
+                this.Close();
             }
+
+
         }
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -126,6 +130,16 @@ namespace FitMe1
         {
             signinp.Visible = false;
             registrationp.Visible = true;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
