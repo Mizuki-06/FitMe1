@@ -141,5 +141,10 @@ namespace FitMe1
         {
 
         }
+
+        private void registrationp_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
