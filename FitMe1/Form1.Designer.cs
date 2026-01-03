@@ -56,7 +56,6 @@
             this.signinp = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.registrationp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -83,7 +82,7 @@
             this.linkLabel3.Location = new System.Drawing.Point(349, 669);
             this.linkLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(45, 13);
+            this.linkLabel3.Size = new System.Drawing.Size(82, 25);
             this.linkLabel3.TabIndex = 17;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Sign Up";
@@ -91,7 +90,6 @@
             // 
             // registrationp
             // 
-            this.registrationp.Controls.Add(this.checkBox3);
             this.registrationp.Controls.Add(this.textBox4);
             this.registrationp.Controls.Add(this.textBox6);
             this.registrationp.Controls.Add(this.textBox3);
@@ -116,7 +114,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.857143F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(36, 332);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(465, 22);
+            this.textBox4.Size = new System.Drawing.Size(465, 34);
             this.textBox4.TabIndex = 20;
             // 
             // textBox6
@@ -124,7 +122,7 @@
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.857143F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(36, 421);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(465, 22);
+            this.textBox6.Size = new System.Drawing.Size(465, 34);
             this.textBox6.TabIndex = 19;
             // 
             // textBox3
@@ -132,7 +130,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.857143F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(36, 515);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(465, 22);
+            this.textBox3.Size = new System.Drawing.Size(465, 34);
             this.textBox3.TabIndex = 18;
             this.textBox3.UseSystemPasswordChar = true;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
@@ -169,7 +167,7 @@
             this.linkLabel4.Location = new System.Drawing.Point(357, 774);
             this.linkLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(43, 13);
+            this.linkLabel4.Size = new System.Drawing.Size(78, 25);
             this.linkLabel4.TabIndex = 15;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Sign In ";
@@ -181,7 +179,7 @@
             this.label7.Location = new System.Drawing.Point(125, 774);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 13);
+            this.label7.Size = new System.Drawing.Size(244, 25);
             this.label7.TabIndex = 14;
             this.label7.Text = "Already have an account? ";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -206,7 +204,7 @@
             this.checkBox2.Location = new System.Drawing.Point(36, 643);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(255, 17);
+            this.checkBox2.Size = new System.Drawing.Size(454, 29);
             this.checkBox2.TabIndex = 8;
             this.checkBox2.Text = "I agree to the Term of service and Privacy Policy";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -218,7 +216,7 @@
             this.label8.Location = new System.Drawing.Point(31, 488);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 13);
+            this.label8.Size = new System.Drawing.Size(98, 25);
             this.label8.TabIndex = 6;
             this.label8.Text = "Password";
             // 
@@ -228,7 +226,7 @@
             this.label9.Location = new System.Drawing.Point(31, 390);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(65, 25);
             this.label9.TabIndex = 4;
             this.label9.Text = "Email ";
             // 
@@ -238,7 +236,7 @@
             this.label10.Location = new System.Drawing.Point(33, 301);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 13);
+            this.label10.Size = new System.Drawing.Size(100, 25);
             this.label10.TabIndex = 2;
             this.label10.Text = "Full Name";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -335,7 +333,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(345, 540);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(92, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(170, 25);
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password?";
@@ -377,7 +375,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.857143F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(39, 420);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(465, 22);
+            this.textBox2.Size = new System.Drawing.Size(465, 34);
             this.textBox2.TabIndex = 22;
             this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -387,18 +385,8 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.857143F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(39, 332);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(465, 22);
+            this.textBox1.Size = new System.Drawing.Size(465, 34);
             this.textBox1.TabIndex = 21;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(41, 575);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
-            this.checkBox3.TabIndex = 21;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -452,7 +440,6 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox3;
     }
 }
 
